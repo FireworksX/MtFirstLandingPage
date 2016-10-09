@@ -1,3 +1,16 @@
+/*---Fonts---
+font-family: 'Conv_BebasNeue Book';
+font-family: 'Conv_BebasNeue Regular';
+font-family: 'Open Sans';
+font-family: "LatoBold";
+*/
+
+.clearfix:after{
+	content: '';
+	clear: both;
+	display: table;
+}
+
 .container{
 	width: 1170px;
 	margin: 0 auto;
@@ -6,6 +19,98 @@
 /*-----Header-styles-----*/
 
 .header{
-	background: url("../images/bg_image.png") no-repeat;
+	background: url("../images/bg_image.png") no-repeat top center;
 	height: 970px;
+}
+
+.header-logo-link{
+	display: block;
+	color: rgba(220, 0, 0, 0.8);
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.header-logo{
+	float: left;
+	margin-top: 25px;
+}
+
+.header-logo-big{
+	font-size: 48px;
+	font-family: 'Conv_BebasNeue Regular';
+}
+
+.header-logo-small{
+	font-size: 30px;
+	font-family: 'Conv_BebasNeue Book';
+}
+
+.header-nav{
+	float: right;
+	margin-top: 35px;
+}
+
+.header-nav-list{
+	font-family: 'Open Sans';
+}
+
+.header-nav-items{
+	float: left;
+	margin-left: 70px;
+}
+
+.header-nav-items a{
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.header-nav-items a:hover{
+	color: #ef2626;
+}
+
+.header-content{
+	text-align: center;
+}
+
+.header-content-season{
+	font-family: Roboto;
+	font-weight: 200;
+	color: #fff;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.header-content-main{
+	font-family: Roboto;
+	font-weight: 700;
+	color: #fff;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.header-content-trend{
+	font-family: Roboto;
+	font-weight: 300;
+	color: #fff;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.header-content-shop{
+	padding-top: 3px;
+	display: inline-block;
+	height: 40px;
+	font-family: Roboto;
+	font-weight: 300;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	text-decoration: none;
+	width: 120px;
+	color: #fff;
+	text-align: center;
 }
