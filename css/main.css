@@ -1,0 +1,11 @@
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+/*-----Header-styles-----*/
+
+.header{
+	background: url("../images/bg_image.png") no-repeat;
+	height: 970px;
+}
