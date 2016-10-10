@@ -16,11 +16,43 @@ font-family: "LatoBold";
 	margin: 0 auto;
 }
 
+.name-block{
+	font-family: Roboto;
+	font-weight: 300;
+	font-style: italic;
+	text-align: center;
+	font-size: 31px;
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+.name-block:before{
+	content: '';
+	width: 112px;
+	height: 3px;
+	background-color: rgb(220, 0, 0);
+	display: inline-block;
+	position: absolute;
+	left: calc(50% - 55px);
+	top: -25px;
+}
+
+.name-block:after{
+	content: '';
+	width: 112px;
+	height: 3px;
+	background-color: rgb(220, 0, 0);
+	display: inline-block;
+	position: absolute;
+	bottom: -25px;
+	left: calc(50% - 55px);
+}
+
 /*-----Header-styles-----*/
 
 .header{
 	background: url("../images/bg_image.png") no-repeat top center;
-	height: 970px;
+	padding-bottom: 320px;
 }
 
 .header-logo-link{
@@ -72,24 +104,28 @@ font-family: "LatoBold";
 
 .header-content{
 	text-align: center;
+	margin-top: 250px;
 }
 
 .header-content-season{
 	font-family: Roboto;
-	font-weight: 200;
+	font-weight: 300;
 	color: #fff;
 	font-size: 30px;
 	text-transform: uppercase;
 	margin-bottom: 10px;
+	margin-bottom: 30px;
+	letter-spacing: 8px;
 }
 
 .header-content-main{
 	font-family: Roboto;
 	font-weight: 700;
 	color: #fff;
-	font-size: 30px;
+	font-size: 29px;
 	text-transform: uppercase;
 	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 
 .header-content-trend{
@@ -98,19 +134,153 @@ font-family: "LatoBold";
 	color: #fff;
 	font-size: 30px;
 	text-transform: uppercase;
-	margin-bottom: 10px;
+	margin-bottom: 45px;
 }
 
 .header-content-shop{
-	padding-top: 3px;
+	height: 60px;
+	border: 2px solid white;
+	border-radius: 3px;
+	color: #fff;
+	font-family: Roboto;
+	font-size: 10px;
+	font-weight: 400;
+	padding: 0 48px;
+	line-height: 56px;
+	font-size: 28px;
 	display: inline-block;
-	height: 40px;
+	text-decoration: none;
+}
+/*-----Header-styles-end-----*/
+
+/*-----Latests-----*/
+
+.name-block-par{
+	position: relative;
+	
+}
+
+.lates-item{
+	width: 370px;
+	background-size: cover;
+	float: left;
+}
+
+.lates-item:first-child{
+	background: url(../images/man.png) no-repeat;
+}
+
+.lates-item:nth-child(2){
+	background: url(../images/woman.png) no-repeat;
+	margin: 0 30px;
+}
+
+.lates-item:last-child{
+	background: url(../images/watch.png) no-repeat;
+}
+
+.lates-item-link{
+	display: block;
+	width: 370px;
+	text-decoration: none;
+}
+
+.lates-item-text{
 	font-family: Roboto;
 	font-weight: 300;
-	border: 2px solid #fff;
-	border-radius: 4px;
-	text-decoration: none;
-	width: 120px;
-	color: #fff;
 	text-align: center;
+	color: #fff;
+	font-size: 27px;
+	height: 350px;
+	font-style: italic;
+	border: 3px solid white;
+	margin: 31px 27px;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
 }
+
+.lates-item-text-span{
+	width: 100%;
+}
+
+.wrap-divitem{
+	margin-top: 30px;
+	float: left;
+}
+
+.lates-divitem-new-autumn{
+	background: url(../images/color_overlay3%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.PNG) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 420px;
+	width: 570px;
+	text-align: center;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.lates-divitem-new-autumn a{
+	color: #fff;
+	font-family: Lato;
+	font-weight: 700;
+	font-size: 40px;
+	font-style: bold;
+	text-decoration: none;
+	width: 100%;
+}
+
+.lates-divitem-mega-sales a{
+	color: #fff;
+	font-family: Lato;
+	font-weight: 700;
+	font-size: 40px;
+	font-style: bold;
+	text-decoration: none;
+	width: 100%;
+}
+
+.lates-divitem-mega-sales{
+	background: url("../images/color_overlay4%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.PNG") no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	width: 570px;
+	height: 420px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
